@@ -25,10 +25,10 @@ body {
 }
 
 .title {
-  font-size: 1.5rem;
-  font-weight: 900;
+  font-size: 1rem;
+  font-weight: 2000;
   text-align: center;
-  margin: 0.5rem 0;
+  margin: 0rem 0;
   color: #fefefe; /* visible text */
   z-index: 5;
 }
@@ -43,18 +43,18 @@ body {
 }
 
 .card {
-  width: 100%;
+   width: 100%;
   max-width: 350px;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 3; /* more natural shape */
   border-radius: 5px;
   overflow: hidden;
   background: #fff;
   box-shadow: 0 6px 20px rgba(2, 6, 23, 0.3);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   cursor: grab;
-  z-index: 10;
 }
 
 .card img {
