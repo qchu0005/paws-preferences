@@ -17,7 +17,7 @@ export default function App() {
   useEffect(() => {
     const fetchCats = async () => {
       const urls = [];
-      const catCount = Math.floor(Math.random() * 5) + 5;
+      const catCount = Math.floor(Math.random() * 11) + 10;
 
       for (let i = 0; i < catCount; i++) {
         // Use timestamp to avoid caching
